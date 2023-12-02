@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Herbal Tea</title>
+  </head>
+  <style>
+    body {
+      background-image: linear-gradient(
+        135deg,
+        hsla(22, 12%, 60%, 1) 20%,
+        hsla(26, 3%, 59%, 1) 40%,
+        hsla(38, 7%, 69%, 1) 100%
+      );
+    }
+
+    .mainTitle {
+      text-align: center;
+      font-family: monospace;
+      line-height: 50%;
+      font-size: 40px;
+      background-color: #bcb8b1;
+      padding: 30px;
+      margin: 0 auto;
+    }
+    .secondTitle,
+    .thirdTitle {
+      font-weight: none;
+      text-align: center;
+      font-family: monospace;
+      line-height: 50%;
+      font-size: 30px;
+      background-color: #8a817c;
+      padding: 30px;
+      margin: 0 auto;
+      white-space: nowrap;
+    }
+
+    .first {
+      text-align: center;
+      font-family: monospace;
+      color: #16302b;
+      font-size: 25px;
+    }
+    .firstParagraph {
+      line-height: 1.5;
+      font-size: 17px;
+      font-family: monospace;
+      text-align: center;
+    }
+
+    .teaPot,
+    .teaHerbs {
+      display: block;
+      max-width: 350px;
+      border-radius: 50px;
+      margin-top: 0px;
+      padding: 20px;
+      transition: all 500ms transparent;
+    }
+
+    .teaPot:hover {
+      transform: scale(1.1);
+    }
+    .teaHerbs:hover {
+      transform: scale(1.1);
+    }
+
+    .container {
+      margin: 0 auto;
+      padding: 0 auto;
+      max-width: fit-content;
+    }
+    hr {
+      border: 1px dotted #463f3a;
+      margin: 20px;
+    }
+
+    img {
+      background-size: cover;
+      width: 60%;
+      display: block;
+      margin: 0 auto;
+      padding: 0 auto;
+      border-radius: 40px;
+    }
+
+    .wiki {
+      text-decoration: none;
+      color: rgb(1, 44, 29);
+      margin: 20px;
+      float: right;
+    }
+
+    .wiki:hover {
+      color: #4d7671;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 50%;
+      border-radius: 10px;
+    }
+
+    hr {
+      border: 1px dotted #463f3a;
+      margin: 20px;
+    }
+
+    p {
+      line-height: 1.5;
+      font-size: 17px;
+      font-family: monospace;
+      text-align: center;
+    }
+
+    button {
+      display: block;
+      margin: auto;
+      padding: 30px;
+      border: 1px solid transparent;
+      font-family: monospace;
+
+      font-size: 25px;
+      background-color: black;
+      color: #c9b885;
+      opacity: 0.7px;
+      transition: all 200ms ease-in-out;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      line-height: 22px;
+    }
+
+    button:hover {
+      background-color: #404e4d;
+      cursor: pointer;
+    }
+
+    .coder {
+      color: #051d03;
+      font-style: oblique;
+    }
+
+    .coder:hover {
+      color: #4d7671;
+      cursor: pointer;
+    }
+
+    .twoColumns {
+      display: flex;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      margin: 0 auto;
+      padding: 0 auto;
+      max-width: 100%;
+    }
+
+    .ending {
+      color: #051d03;
+      font-style: monospace;
+      font-size: larger;
+      font-style: italic;
+    }
+
+    .ending:hover {
+      color: #4d7671;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #bcb8b1;
+      padding: 9px;
+      margin: 0 auto;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="mainTitle">Herbs 🌿 & Tea 🍵</div>
+      </header>
+      <br />
+      <img src="https://s1.gifyu.com/images/SRNxV.gif" alt="tea" border="0" />
+
+      <hr />
+
+      <div class="twoColumns">
+        <div class="boxTwo">
+          <div class="thirdTitle">Why i love Tea? 🤍</div>
+
+          <img
+            src="https://i.imgur.com/0FuO9LA.png"
+            alt="herbaltea"
+            class="teaPot"
+          />
+
+          <p>
+            Herbal tea has become an integral part of my daily routine for its
+            comforting warmth and calming effect.The natural, healthful
+            properties align perfectly with my pursuit of a balanced lifestyle.
+            Its gentle support for digestion and immunity resonates deeply with
+            my desire for holistic wellness. Overall, the simple pleasure and
+            genuine benefits of herbal tea have made it an essential and
+            cherished part of my life 🤍.
+          </p>
+        </div>
+
+        <div class="box">
+          <div class="secondTitle">What is Herbal Tea? 🌱</div>
+          <img
+            src="https://i.imgur.com/HDUCp7A.png"
+            alt="herbs"
+            class="teaHerbs"
+          />
+
+          <p>
+            Herbal teas, also known as herbal infusions and less commonly called
+            tisanes, are beverages made from the infusion or decoction of herbs,
+            spices, or other plant material in hot water. Oftentimes herb tea,
+            or the plain term tea, is used as a reference to all sorts of herbal
+            teas. Many herbs are used in herbal medicine. Some herbal blends
+            contain actual tea (e.g., the Indian classic masala chai).
+          </p>
+
+          <a
+            href="https://en.wikipedia.org/wiki/Herbal_tea"
+            class="wiki"
+            target="_blank"
+          >
+            Read more on wikipedia</a
+          >
+        </div>
+      </div>
+      <hr />
+
+      <img
+        src="https://s1.gifyu.com/images/SRNxZ.gif"
+        alt="footertea"
+        border="0"
+      />
+      <br />
+      <button>🌿Buy Herbal Tea🍵</button>
+
+      <br />
+      <footer>
+        <p>
+          This page is part of the final project of SheCodes Basic Course & it
+          was created with Html/CSS & JavaScript by: <br />
+          <a href="https://www.instagram.com/" class="ending" target="_blank"
+            >Nadia Bouli
+          </a>
+        </p>
+      </footer>
+    </div>
+
+    <script>
+      function BuyHerbalTea() {
+        let name = prompt("What is your name?");
+        let question = prompt("Do you like Herbal Tea?🌿");
+        question = question.toLowerCase();
+        question = question.trim();
+        if (question === "yes") {
+          alert(
+            " Great " +
+              name +
+              "!" +
+              " Then we'll be in touch soon for your free samples🍵 "
+          );
+        } else {
+          alert("That's sad. I hope you will give it a try then 😔");
+        }
+      }
+
+      let changeButton = document.querySelector("button");
+      changeButton.addEventListener("click", BuyHerbalTea);
+    </script>
+  </body>
+</html>
